@@ -1,0 +1,57 @@
+# ---- Byte-compiled / optimized / DLL files ----
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ---- Jupyter Notebook checkpoints ----
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ---- Distribution / packaging ----
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ---- Virtual environments ----
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ---- Environment variables / secrets ----
+.env
+.env.local
+
+# ---- macOS ----
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ---- Windows ----
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ---- IDE / editor files ----
+.vscode/
+.idea/
+*.swp
+
+# ---- Logs ----
+*.log
+
+# ---- Data files (uncomment if datasets should not be tracked) ----
+# data/*.csv
+# data/*.xlsx
+
+# ---- Model artifacts ----
+*.pkl
+*.joblib
+*.h5
+
+# ---- OS-generated / misc ----
+*.bak
+*.tmp
